@@ -6,7 +6,6 @@ use App\Contracts\ApiResponseServiceInterface;
 use Illuminate\Foundation\Http\FormRequest;
 use Illuminate\Contracts\Validation\Validator;
 use Illuminate\Http\Exceptions\HttpResponseException;
-use App\Services\ApiResponseService;
 
 class CategoryRequest extends FormRequest
 {

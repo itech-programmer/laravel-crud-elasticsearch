@@ -39,6 +39,7 @@ class AuthController extends Controller
 
         return $this->authService->login($dto);
     }
+
     public function logout(): JsonResponse
     {
         return $this->authService->logout();

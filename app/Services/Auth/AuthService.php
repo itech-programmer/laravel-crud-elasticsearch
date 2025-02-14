@@ -4,7 +4,6 @@ namespace App\Services\Auth;
 
 use App\Contracts\Auth\AuthRepositoryInterface;
 use App\Contracts\Auth\AuthServiceInterface;
-use App\Models\User;
 use App\DTO\Auth\LoginDto;
 use App\DTO\Auth\RegisterDto;
 use Illuminate\Support\Facades\Auth;
